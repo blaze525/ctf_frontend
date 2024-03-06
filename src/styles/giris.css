@@ -1,0 +1,87 @@
+
+
+.giris-header {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    height: 59px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-bottom-style: solid;
+    border-bottom-color: #A9AFBBD1;
+    border-bottom-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+}
+
+.div-logo-img {
+    height: 100%;
+}
+
+.input-text {
+    color:#A9AFBBD1;
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.input-text-1 {
+    color:rgb(230, 0, 0);
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.div-giris-input {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:170px;   
+}
+
+.div-giris-input-1 {
+    margin-top: 70px;
+}
+
+
+
+.giris-input {
+    margin-bottom:20px;
+    background-color: #171e30!important;
+    border-style: solid;
+    padding:12px 17px;
+    border-width: 1px;
+    width: 257px;
+    border-radius: 4px;
+    border-color:rgb(78, 78, 61);
+    font-weight: 700;
+    color: rgb(205, 210, 214);
+    font-size: 14px;
+}
+
+.admin-input {
+    width:70%;
+}
+
+
+.giris-input::placeholder {
+    font-weight: 700;
+    color: rgb(205, 210, 214);
+    font-size: 14px;
+}
+
+
+.dowam-et-button {
+    margin-bottom:20px;
+    margin-top:10px;
+    padding:11px 52px;
+    background-color: rgb(93, 43, 230);
+    color:white;
+    border-style: solid;
+    font-weight: 700;
+    border-width: 1px;
+    border-radius: 4px;
+}

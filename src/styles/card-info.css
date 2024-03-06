@@ -1,0 +1,243 @@
+.card-info {
+    background-color: rgba(0, 0,0,0.6);
+    position: fixed;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    top:0;
+    bottom:0;
+    right: 0;
+    left:0;
+    z-index: 30;
+  }
+  
+  .div-card {
+    position: relative;
+    max-width:670px;
+    max-height: 360px;
+    margin-left:10px;
+    margin-right: 10px;
+    background-color: #1f283e;
+    color:#A9AFBBD1;
+    border-radius: 7px;
+    padding: 35px 20px;
+    font-weight: 700;
+  }
+  
+  .row-main-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .column-title-info {
+    margin-right: auto;
+    margin-left:14px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .point-text {
+    margin-right: 40px;
+  }
+  
+  .contact-img {
+    margin-top: 2px;
+    margin-right: 2px;
+  }
+  
+  .x-button {
+    font-family: Lato;
+    position: absolute;
+    background-color: #1f283e;
+    border:none;
+    right: 25px;
+    top:25px;
+    font-weight: 700;
+    font-size: 12px;
+    cursor:pointer;
+    text-shadow: 0px 1px 2px white;
+  }
+  
+  
+  .row-middle-info {
+    display:flex;
+    margin-top:16px;
+    justify-content: center;
+  }
+  
+  .author-text {
+    margin-right: 300px;
+  }
+  
+  .div-help {
+    margin-right: 15px;
+    margin-top: 1px;
+    font-size: 14px;
+    width:20%;
+  }
+  
+  .menu-text {
+    margin-top:10px;
+    margin-bottom: 25px;
+  }
+  
+  .problem-info {
+    margin-bottom: 40px;
+    margin-top:25px;
+    margin-left: 14px;
+    color:gray;
+    font-size: 14px;
+  }
+  
+  .row-bottom-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:25px;
+  }
+  
+  .giris-button-info {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    color: #A9AFBBD1;
+    background-color: #1f283e;
+    border-style: solid;
+    margin-top:10px;
+    padding: 5px 8px;
+    border-color: #A9AFBBD1;
+    border-width: 1px;
+    border-radius: 3px;
+    cursor:pointer;
+  }
+  
+  .info-title {
+    color:rgb(49, 182, 49);
+    margin-top: 0px;
+  }
+
+  .info-gozleg {
+    color:rgb(93, 46, 223);
+    font-size:16px;
+    margin-bottom:10px;
+  }
+  
+  .ctf-name {
+    color:gray;
+    margin-right: 10px;
+  }
+
+  .sss {
+    margin-right: 30px;
+  }
+
+  .question {
+    color:black;
+    background-color: rgb(37, 185, 37);
+    height: 8px;
+    padding:2px 4px;
+    padding-bottom: 6px;
+    padding-right: 5px;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+
+  .author-text {
+    margin-left: 15px;
+    font-size: 15px;
+    margin-bottom: -4px;
+    color: gray;
+  }
+
+  .menu-text {
+    margin-left: 12px;
+    font-size: 14px;
+    margin-bottom: -4px;
+    color: gray;
+  }
+
+  .div-author-text {
+    margin-left: 10px;
+    width:40%
+  }
+
+  .div-file {
+    width:40%;
+  }
+
+  .document-link {
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 15px;
+    color:rgba(91, 91, 241, 0.801);
+    cursor:pointer;
+  }
+
+  .info-about-giris {
+    color:rgb(93, 46, 223);
+    font-size: 13px;
+  }
+
+
+  .number-done-info {
+    margin-left: 15px;
+    color:gray;
+    font-size: 15px;
+  }
+
+  .div-input-answer {
+    margin-top:20px;
+    display: flex;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .input-answer {
+    margin-right: auto;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #151c2e;
+    border-style:solid;
+    border-width: 1px;
+    border-color: #4e5664d1;
+    border-radius: 3px;
+    color:white;
+    font-size: 14px;
+  }
+
+  .button-answer {
+    background-color: rgb(103, 83, 219);
+    border:none;
+    color:white;
+    padding: 10px 20px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-left: -2px;
+  }
+
+  
+  .choose-file {
+    background-color: white;
+    color:black;
+    height: 25px;
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 8px;
+  }
+
+  .upload-button {
+    margin: 5px;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: 500;
+    border:none;
+    border-radius: 8px;
+    background-color: rgb(23, 93, 121);
+    color:white;
+    cursor: pointer;
+  }
+
+

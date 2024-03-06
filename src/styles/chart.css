@@ -1,0 +1,36 @@
+.div-chart {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.score {
+  padding-left: 5px;
+  padding-top: 2px;
+  padding-bottom: 1px;
+  z-index: 2;
+}
+
+.stats-name {
+  margin: 6px;
+  text-align: start;
+  margin-left: 20px;
+}
+
+.each-chart {
+  position: relative;
+  color:white;
+  font-size: 14px;
+  min-width: 240px;
+  border-radius: 20px;
+  background-color: rgb(180, 180, 180);
+  margin-right: 10px;
+}
+
+
+.content {
+  position: relative;
+  z-index: 2;
+  margin-left: 5px;
+  margin:2px 6px;
+}
+

@@ -1,0 +1,96 @@
+.hidden-content {
+  display: none;
+}
+
+.open-screen {
+  display:block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px 15px;
+  font-size: 15px;
+  color: #e6eaf1d1;
+}
+
+.maglumat-button {
+  display: flex;
+  border:none;
+  border-top-width: 1px;
+  border-top-color: #A9AFBBD1;
+  border-top-style: solid;
+  color: #86acf8d1;
+  background-color: #1f283e;
+  padding-top: 10px;
+  padding-bottom:10px;
+  transition: opacity 0.15s;
+  cursor:pointer;
+  padding-left: 20px;
+  width:100%;
+  font-size: 15px;
+  font-weight: 600;
+}
+.div-maglumatlar {
+  margin-top: 20px;
+  margin-left: 35px;
+  margin-right: 35px;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #A9AFBBD1;
+}
+
+.triangle-icon {
+  margin-left: 10px;
+  margin-top: -3px;
+}
+
+.gray-button {
+  display: flex;
+  border:none;
+  border-top-width: 1px;
+  border-top-color: #A9AFBBD1;
+  border-top-style: solid;
+  color: gray;
+  background-color: #1f283e;
+  padding-top: 10px;
+  padding-bottom:10px;
+  transition: opacity 0.15s;
+  cursor:pointer;
+  padding-left: 20px;
+  width:100%;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.row-information {
+  background-color: #1f283e ;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.delete-button-1 {
+  background-color: #1f283e;
+  border:none;
+  margin-left: 20px;
+  color:rgba(230, 15, 15, 0.815);
+  cursor: pointer;
+  margin-right: 20px;
+  
+}
+
+.delete-button-3 {
+  position: absolute;
+  z-index: 1;
+  margin-top: -10px;
+  right: 30px;
+  cursor:pointer;
+}
+
+.delete-button-3 {
+  background-color: #1f283e;
+  border:none;
+  margin-left: 20px;
+  color:rgba(230, 15, 15, 0.815);
+  cursor: pointer;
+  margin-right: 20px;
+  
+}
